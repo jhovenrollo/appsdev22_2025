@@ -1,0 +1,17 @@
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\bin\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.exe
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\bin\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.deps.json
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\bin\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.runtimeconfig.json
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\bin\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.dll
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\bin\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.pdb
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.Form1.resources
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.csproj.GenerateResource.cache
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.AssemblyInfoInputs.cache
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.AssemblyInfo.cs
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.csproj.CoreCompileInputs.cache
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.dll
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\refint\SimpleFavoriteCartoonFormApp.dll
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.pdb
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.genruntimeconfig.cache
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\ref\SimpleFavoriteCartoonFormApp.dll
+C:\Users\Jhun Ardy Cabrera\source\repos\SimpleFavoriteCartoonFormApp\SimpleFavoriteCartoonFormApp\obj\Debug\net8.0-windows\SimpleFavoriteCartoonFormApp.Properties.Resources.resources
