@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oralHygiene", "..\..\..\source\repos\oralHygiene\oralHygiene\oralHygiene.csproj", "{471DDE2A-A040-44B6-B85A-BC60B5A16E67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oralHygiene", "oralHygiene.csproj", "{471DDE2A-A040-44B6-B85A-BC60B5A16E67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {301BAB49-23BB-4B16-BC68-93F3A6C8F1D0}
+		SolutionGuid = {FD2401AA-BEBF-4629-9FA1-3F46908E73C7}
 	EndGlobalSection
 EndGlobal

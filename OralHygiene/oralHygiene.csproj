@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{471DDE2A-A040-44B6-B85A-BC60B5A16E67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>oralHygiene</RootNamespace>
+    <AssemblyName>oralHygiene</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BetterBreath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetterBreath.Designer.cs">
+      <DependentUpon>BetterBreath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BetterBreathMouthWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetterBreathMouthWash.Designer.cs">
+      <DependentUpon>BetterBreathMouthWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BetterBreathPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetterBreathPaste.Designer.cs">
+      <DependentUpon>BetterBreathPaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BetterBreathTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetterBreathTools.Designer.cs">
+      <DependentUpon>BetterBreathTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrushingDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrushingDay.Designer.cs">
+      <DependentUpon>BrushingDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FightingCavitiesMouthwash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightingCavitiesMouthwash.Designer.cs">
+      <DependentUpon>FightingCavitiesMouthwash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FightingCavitiesPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightingCavitiesPaste.Designer.cs">
+      <DependentUpon>FightingCavitiesPaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FightingCavitiesTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightingCavitiesTools.Designer.cs">
+      <DependentUpon>FightingCavitiesTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FightingCavities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightingCavities.Designer.cs">
+      <DependentUpon>FightingCavities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlossDayCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlossDayCheck.Designer.cs">
+      <DependentUpon>FlossDayCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OftenDoYouSmoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OftenDoYouSmoke.Designer.cs">
+      <DependentUpon>OftenDoYouSmoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OralHealth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OralHealth.Designer.cs">
+      <DependentUpon>OralHealth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchBrush2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchBrush2.Designer.cs">
+      <DependentUpon>ProductMtchBrush2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchDentalTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchDentalTools.Designer.cs">
+      <DependentUpon>ProductMtchDentalTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchEBrush1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchEBrush1.Designer.cs">
+      <DependentUpon>ProductMtchEBrush1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchEBrush2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchEBrush2.Designer.cs">
+      <DependentUpon>ProductMtchEBrush2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchEBrush3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchEBrush3.Designer.cs">
+      <DependentUpon>ProductMtchEBrush3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchEBrush4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchEBrush4.Designer.cs">
+      <DependentUpon>ProductMtchEBrush4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchElectricBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchElectricBrush.Designer.cs">
+      <DependentUpon>ProductMtchElectricBrush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchFloss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchFloss.Designer.cs">
+      <DependentUpon>ProductMtchFloss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchFlouride.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchFlouride.Designer.cs">
+      <DependentUpon>ProductMtchFlouride.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchHardBristle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchHardBristle.Designer.cs">
+      <DependentUpon>ProductMtchHardBristle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchManualBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchManualBrush.Designer.cs">
+      <DependentUpon>ProductMtchManualBrush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMediumBristle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMediumBristle.Designer.cs">
+      <DependentUpon>ProductMtchMediumBristle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash.Designer.cs">
+      <DependentUpon>ProductMtchMouthWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash1.Designer.cs">
+      <DependentUpon>ProductMtchMouthWash1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash2.Designer.cs">
+      <DependentUpon>ProductMtchMouthWash2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash3.Designer.cs">
+      <DependentUpon>ProductMtchMouthWash3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchMouthWash4.Designer.cs">
+      <DependentUpon>ProductMtchMouthWash4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchNonFlouride.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchNonFlouride.Designer.cs">
+      <DependentUpon>ProductMtchNonFlouride.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchSensePaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchSensePaste.Designer.cs">
+      <DependentUpon>ProductMtchSensePaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMatchToothpaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMatchToothpaste.Designer.cs">
+      <DependentUpon>ProductMatchToothpaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchSoftBristle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchSoftBristle.Designer.cs">
+      <DependentUpon>ProductMtchSoftBristle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchTScraper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchTScraper.Designer.cs">
+      <DependentUpon>ProductMtchTScraper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchTypesBrush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchTypesBrush.Designer.cs">
+      <DependentUpon>ProductMtchTypesBrush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMtchColgate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMtchColgate.Designer.cs">
+      <DependentUpon>ProductMtchColgate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ProtectGums.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtectGums.Designer.cs">
+      <DependentUpon>ProtectGums.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProtectGumsMouthWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtectGumsMouthWash.Designer.cs">
+      <DependentUpon>ProtectGumsMouthWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProtectGumsPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtectGumsPaste.Designer.cs">
+      <DependentUpon>ProtectGumsPaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProtectGumsTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtectGumsTools.Designer.cs">
+      <DependentUpon>ProtectGumsTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReduceTartar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReduceTartar.Designer.cs">
+      <DependentUpon>ReduceTartar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReduceTartarMouthwash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReduceTartarMouthwash.Designer.cs">
+      <DependentUpon>ReduceTartarMouthwash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReduceTartarPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReduceTartarPaste.Designer.cs">
+      <DependentUpon>ReduceTartarPaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReduceTartarTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReduceTartarTools.Designer.cs">
+      <DependentUpon>ReduceTartarTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultDashboard.Designer.cs">
+      <DependentUpon>ResultDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Routine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Routine.Designer.cs">
+      <DependentUpon>Routine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoutineFloss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoutineFloss.Designer.cs">
+      <DependentUpon>RoutineFloss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoutineTongueScraper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoutineTongueScraper.Designer.cs">
+      <DependentUpon>RoutineTongueScraper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeOfToothpaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeOfToothpaste.Designer.cs">
+      <DependentUpon>TypeOfToothpaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhiteTeeth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhiteTeeth.Designer.cs">
+      <DependentUpon>WhiteTeeth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OralHealthChck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OralHealthChck.Designer.cs">
+      <DependentUpon>OralHealthChck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgeGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgeGroup.Designer.cs">
+      <DependentUpon>AgeGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMatch.Designer.cs">
+      <DependentUpon>ProductMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutInfo.Designer.cs">
+      <DependentUpon>AboutInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhiteTeethMouthWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhiteTeethMouthWash.Designer.cs">
+      <DependentUpon>WhiteTeethMouthWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhiteTeethPaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhiteTeethPaste.Designer.cs">
+      <DependentUpon>WhiteTeethPaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhiteTeethTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhiteTeethTools.Designer.cs">
+      <DependentUpon>WhiteTeethTools.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BetterBreath.resx">
+      <DependentUpon>BetterBreath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BetterBreathMouthWash.resx">
+      <DependentUpon>BetterBreathMouthWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BetterBreathPaste.resx">
+      <DependentUpon>BetterBreathPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BetterBreathTools.resx">
+      <DependentUpon>BetterBreathTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrushingDay.resx">
+      <DependentUpon>BrushingDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightingCavitiesMouthwash.resx">
+      <DependentUpon>FightingCavitiesMouthwash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightingCavitiesPaste.resx">
+      <DependentUpon>FightingCavitiesPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightingCavitiesTools.resx">
+      <DependentUpon>FightingCavitiesTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightingCavities.resx">
+      <DependentUpon>FightingCavities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlossDayCheck.resx">
+      <DependentUpon>FlossDayCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OftenDoYouSmoke.resx">
+      <DependentUpon>OftenDoYouSmoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OralHealth.resx">
+      <DependentUpon>OralHealth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchBrush2.resx">
+      <DependentUpon>ProductMtchBrush2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchDentalTools.resx">
+      <DependentUpon>ProductMtchDentalTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchEBrush1.resx">
+      <DependentUpon>ProductMtchEBrush1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchEBrush2.resx">
+      <DependentUpon>ProductMtchEBrush2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchEBrush3.resx">
+      <DependentUpon>ProductMtchEBrush3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchEBrush4.resx">
+      <DependentUpon>ProductMtchEBrush4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchElectricBrush.resx">
+      <DependentUpon>ProductMtchElectricBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchFloss.resx">
+      <DependentUpon>ProductMtchFloss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchFlouride.resx">
+      <DependentUpon>ProductMtchFlouride.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchHardBristle.resx">
+      <DependentUpon>ProductMtchHardBristle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchManualBrush.resx">
+      <DependentUpon>ProductMtchManualBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMediumBristle.resx">
+      <DependentUpon>ProductMtchMediumBristle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMouthWash.resx">
+      <DependentUpon>ProductMtchMouthWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMouthWash1.resx">
+      <DependentUpon>ProductMtchMouthWash1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMouthWash2.resx">
+      <DependentUpon>ProductMtchMouthWash2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMouthWash3.resx">
+      <DependentUpon>ProductMtchMouthWash3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchMouthWash4.resx">
+      <DependentUpon>ProductMtchMouthWash4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchNonFlouride.resx">
+      <DependentUpon>ProductMtchNonFlouride.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchSensePaste.resx">
+      <DependentUpon>ProductMtchSensePaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMatchToothpaste.resx">
+      <DependentUpon>ProductMatchToothpaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchSoftBristle.resx">
+      <DependentUpon>ProductMtchSoftBristle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchTScraper.resx">
+      <DependentUpon>ProductMtchTScraper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchTypesBrush.resx">
+      <DependentUpon>ProductMtchTypesBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMtchColgate.resx">
+      <DependentUpon>ProductMtchColgate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProtectGums.resx">
+      <DependentUpon>ProtectGums.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProtectGumsMouthWash.resx">
+      <DependentUpon>ProtectGumsMouthWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProtectGumsPaste.resx">
+      <DependentUpon>ProtectGumsPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProtectGumsTools.resx">
+      <DependentUpon>ProtectGumsTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReduceTartar.resx">
+      <DependentUpon>ReduceTartar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReduceTartarMouthwash.resx">
+      <DependentUpon>ReduceTartarMouthwash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReduceTartarPaste.resx">
+      <DependentUpon>ReduceTartarPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReduceTartarTools.resx">
+      <DependentUpon>ReduceTartarTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultDashboard.resx">
+      <DependentUpon>ResultDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Routine.resx">
+      <DependentUpon>Routine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoutineFloss.resx">
+      <DependentUpon>RoutineFloss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoutineTongueScraper.resx">
+      <DependentUpon>RoutineTongueScraper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeOfToothpaste.resx">
+      <DependentUpon>TypeOfToothpaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhiteTeeth.resx">
+      <DependentUpon>WhiteTeeth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OralHealthChck.resx">
+      <DependentUpon>OralHealthChck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgeGroup.resx">
+      <DependentUpon>AgeGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMatch.resx">
+      <DependentUpon>ProductMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutInfo.resx">
+      <DependentUpon>AboutInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhiteTeethMouthWash.resx">
+      <DependentUpon>WhiteTeethMouthWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhiteTeethPaste.resx">
+      <DependentUpon>WhiteTeethPaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhiteTeethTools.resx">
+      <DependentUpon>WhiteTeethTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flourinsekids" />
+    <None Include="Resources\material-symbols--search.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouthwaskids" />
+    <None Include="Resources\Screenshot 2025-04-09 145842.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skill-icons--instagram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos--facebook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-email.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uil--globe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-09 1458421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols--search1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skill-icons--instagram1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos--facebook1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-email1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos--facebook2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uil--globe1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-phone1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-09 1458422.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols--search2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos--facebook3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skill-icons--instagram2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos--facebook4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-email2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uil--globe2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--baseline-phone2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mdi--instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mdi--instagram1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--outline-facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--outline-facebook1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-10 221342.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols--search3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols--search-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OralHicon_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1727992010-colgate-66ff10c159a43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1727992010-colgate-66ff10c159a43-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listerine-advance-white-milder-taste-mouthwash-en-gb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spotlight_oral_care_LED_whitening_system_1_1_83fb2d04-992c-4c99-bd6d-94436e90656f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\654eb480b089e7132204f417-crest-3d-white-professional-effects.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\individual-tooth-tray-whitening-26324447.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yso7widRL._AC_UL210_SR210,210_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81rPjv8uA7L._AC_SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000,1000_QL80_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pronamel_Gentle_Whitening_PDP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000,1000_QL80_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pronamel_Gentle_Whitening_PDP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yso7widRL._AC_UL210_SR210,210_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81rPjv8uA7L._AC_SL1500_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81rPjv8uA7L._AC_SL1500_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yso7widRL._AC_UL210_SR210,210_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000,1000_QL80_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\654eb480b089e7132204f417-crest-3d-white-professional-effects1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gl722.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yso7widRL._AC_UL210_SR210,210_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kidtotpist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totbrus kid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gl722.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\munchkids.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flosskids.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingtotpis.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingmouthwas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingmouthwas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingdentalfloss.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingfreegum.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingtootbrus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightingpaste.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducetotpist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducemouthwash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducetotbrus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducegel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducegum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducegum1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducevitamins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img-brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img-floss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oral-91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whiteningtreat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toothbrush-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whiteningtreat-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colgate toothpaste total clean mint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\act mouthwash anticavity fluoride.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colgate total advanced pro-shield mouthwash.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest pro-health multi-protection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listerine antiseptic original mouthwash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest pro-health multi-protection1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parodontax.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest gum detoxify.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensodyne sensitivity gum whitening toothpaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\act mouthwash anticavity fluoride1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colgate total advanced pro-shield mouthwash1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest pro-health multi-protection2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listerine antiseptic original mouthwash1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dental Floss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interdental Brushes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORAL B, Pro 2 2000 Electric Toothbrush.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tongue Scraper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closeup Menthol Fresh Toothpaste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest Pro-Health Clean Mint Toothpaste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest Pro-Health Clean Mint Toothpaste1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensodyne pronamel fresh breath toothpaste.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\therabreath fresh breath toothpaste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listerine Cool Mint Total Care.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheraBreath Fresh Breath Oral Rinse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest Pro-Health Advanced Mouthwash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Plax Mouthwash.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest 3d White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Optic Care.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensodyne Pronamel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Advance White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listerine Healthy White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrestWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Optic White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thera Breath.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest 3D White Strips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Optical White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dr.Song.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philips Sonic Care.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate total.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensodyne Pronamel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paradontax.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listerine tartar control.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crest advance white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thera breath1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheraBreath12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oralb pro 1000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\philips sonicare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gum soft picks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheraBreath23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheraBreath24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Cavity Protection.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest Cavity Protection Toothpaste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hapee Cavity Fighter.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closeup Menthol Fresh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACT Anticavity Fluoride Rinse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Plax1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listerine Total Care1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OraCare Mouthrinse1231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheraBreath1234.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OralBProSeries1234.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\act sensitive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentalTools12345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000_1000_QL80_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentalTools123451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentalTools123452.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrTungsFloss123.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUM Dental Scaler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colgate Total Floss.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dental Floss1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tongue Scraper2212.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tongue Scraper22121.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interdental Brush2221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toothbrush2112.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crest 3d White1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toothbrush-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61PQS6POmEL._AC_UF1000_1000_QL80_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toothbrush-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentalTools123453.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toothbrush-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_54742001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_54742002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrushPrdctMtch-removebg-preview4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucide--cigarette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whiteningtreat-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flouride-Toothpaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Non-Flouride.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Non-Flouride prescription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flouride-Toothpaste1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idontknow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAW1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1727992010-colgate-66ff10c159a43-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1727992010-colgate-66ff10c159a43-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToothBrush1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToothBrush2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToothBrush3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToothBrush4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBrush1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBrush2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBrush3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBrush4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TScraper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentaFloss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1727992010-colgate-66ff10c159a43-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouthWash41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManualBrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TScraper11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DentaFloss11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBrush11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectricBrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howtobrush-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howtobrush-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_594568942_sp5J5yI1ZmeneplNIUCkKiJqFOcF58qE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\softbrush.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mediumbrush.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardbrush.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\softmediumhard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dento-clinic-classic-soft-medium-and-hard-toothbrush.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\softbrush1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mediumbrush1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardbrush1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardbrush2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
