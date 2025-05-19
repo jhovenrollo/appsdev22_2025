@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ic--outline-facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--outline-facebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hardbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hardbrush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dento-clinic-classic-soft-medium-and-hard-toothbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dento-clinic-classic-soft-medium-and-hard-toothbrush.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToothBrush4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToothBrush4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest gum detoxify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest gum detoxify.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000,1000_QL80_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="654eb480b089e7132204f417-crest-3d-white-professional-effects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\654eb480b089e7132204f417-crest-3d-white-professional-effects.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Listerine Healthy White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Listerine Healthy White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest 3d White1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest 3d White1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gl7221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gl722.11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="softbrush1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\softbrush1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whiteningtreat-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whiteningtreat-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothbrush-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toothbrush-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-phone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OralHicon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OralHicon_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paradontax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paradontax.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Optical White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Optical White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBrush3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBrush3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducevitamins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducevitamins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000,1000_QL80_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBrush11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBrush11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logos--facebook1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logos--facebook1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-symbols--search1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--search1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="softbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\softbrush.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest pro-health multi-protection1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest pro-health multi-protection1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colgate toothpaste total clean mint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colgate toothpaste total clean mint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pronamel_Gentle_Whitening_PDP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pronamel_Gentle_Whitening_PDP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingtootbrus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingtootbrus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBrush1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBrush1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest Pro-Health Clean Mint Toothpaste1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest Pro-Health Clean Mint Toothpaste1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr.Song" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr.Song.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yso7widRL._AC_UL210_SR210,210_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yso7widRL._AC_UL210_SR210,210_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManualBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManualBrush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-symbols--search-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--search-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheraBreath23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheraBreath23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uil--globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uil--globe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skill-icons--instagram2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skill-icons--instagram2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theraBreathAlt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thera breath1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flouride-Toothpaste1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flouride-Toothpaste1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-symbols--search3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--search3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest Pro-Health Clean Mint Toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest Pro-Health Clean Mint Toothpaste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sensodyne sensitivity gum whitening toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sensodyne sensitivity gum whitening toothpaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listerine antiseptic original mouthwash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listerine antiseptic original mouthwash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flouride-Toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flouride-Toothpaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ORAL B, Pro 2 2000 Electric Toothbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ORAL B, Pro 2 2000 Electric Toothbrush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrTungsFloss123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrTungsFloss123.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Listerine Cool Mint Total Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Listerine Cool Mint Total Care.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interdental Brushes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interdental Brushes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1727992010-colgate-66ff10c159a43-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1727992010-colgate-66ff10c159a43-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logos--facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logos--facebook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgydium-premieres-dents-soothing-gingival-massage-gel-15ml-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81rPjv8uA7L2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81rPjv8uA7L._AC_SL1500_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81rPjv8uA7L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81rPjv8uA7L._AC_SL1500_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-04-10 221342" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-04-10 221342.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Advance White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Advance White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothbrush-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toothbrush-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-04-09 1458421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-04-09 1458421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentalTools123453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentalTools123453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL._AC_UF1000_1000_QL80_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000_1000_QL80_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensodyne Pronamel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensodyne Pronamel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBrush2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBrush2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listerine antiseptic original mouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listerine antiseptic original mouthwash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totbrus kid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totbrus kid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest 3d White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest 3d White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img-floss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img-floss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheraBreath12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheraBreath12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingdentalfloss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingdentalfloss.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000_1000_QL80_-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch-removebg-preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch-removebg-preview4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-email2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-email2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentalTools123451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentalTools123451.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CrestWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CrestWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="philips sonicare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\philips sonicare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--outline-facebook1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--outline-facebook1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act mouthwash anticavity fluoride1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\act mouthwash anticavity fluoride1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensodyne Pronamel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensodyne Pronamel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tongue Scraper2212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tongue Scraper2212.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducemouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducemouthwash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skill-icons--instagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skill-icons--instagram.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingmouthwas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingmouthwas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act mouthwash anticavity fluoride" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\act mouthwash anticavity fluoride.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_54742002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_54742002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61PQS6POmEL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61PQS6POmEL._AC_UF1000,1000_QL80_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Cavity Protection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Cavity Protection.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dental Floss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dental Floss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_594568942_sp5J5yI1ZmeneplNIUCkKiJqFOcF58qE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_594568942_sp5J5yI1ZmeneplNIUCkKiJqFOcF58qE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="howtobrush-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\howtobrush-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closeup Menthol Fresh Toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closeup Menthol Fresh Toothpaste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uil--globe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uil--globe1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-04-09 145842" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-04-09 145842.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentalTools123452" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentalTools123452.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TScraper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TScraper1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TAW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TAW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idontknow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idontknow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheraBreath24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheraBreath24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="howtobrush-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\howtobrush-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="654eb480b089e7132204f417-crest-3d-white-professional-effects1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\654eb480b089e7132204f417-crest-3d-white-professional-effects1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listerine tartar control" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listerine tartar control.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1727992010-colgate-66ff10c159a43-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1727992010-colgate-66ff10c159a43-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToothBrush1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToothBrush1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingpaste.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducetotbrus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducetotbrus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1727992010-colgate-66ff10c159a43-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1727992010-colgate-66ff10c159a43-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest pro-health multi-protection2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest pro-health multi-protection2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listerine-advance-white-milder-taste-mouthwash-en-gb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listerine-advance-white-milder-taste-mouthwash-en-gb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logos--facebook4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logos--facebook4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate total" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate total.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Non-Flouride prescription" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Non-Flouride prescription.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest Pro-Health Advanced Mouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest Pro-Health Advanced Mouthwash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-phone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-phone1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothbrush2112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toothbrush2112.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Optic Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Optic Care.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Listerine Total Care1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Listerine Total Care1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1727992010-colgate-66ff10c159a43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1727992010-colgate-66ff10c159a43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-04-09 1458422" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-04-09 1458422.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mdi--instagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mdi--instagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TScraper11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TScraper11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="individual-tooth-tray-whitening-26324447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\individual-tooth-tray-whitening-26324447.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="softmediumhard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\softmediumhard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mdi--instagram1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mdi--instagram1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothbrush-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toothbrush-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yso7widRL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yso7widRL._AC_UL210_SR210,210_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-symbols--search2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--search2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theraBreathMouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheraBreath Fresh Breath Oral Rinse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whiteningtreat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whiteningtreat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-email1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-email1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-email.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Plax1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Plax1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest Cavity Protection Toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest Cavity Protection Toothpaste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest pro-health multi-protection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest pro-health multi-protection.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-symbols--search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--search.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pronamel_Gentle_Whitening_PDP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pronamel_Gentle_Whitening_PDP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hlt-primary-teeth-whitening-pens-jjuliao-11506-8008d722431547bbace15715c313d03b.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spotlight_oral_care_LED_whitening_system_1_1_83fb2d04-992c-4c99-bd6d-94436e90656f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spotlight_oral_care_LED_whitening_system_1_1_83fb2d04-992c-4c99-bd6d-94436e90656f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElectricBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElectricBrush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crest 3D White Strips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crest 3D White Strips.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yso7widRL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yso7widRL._AC_UL210_SR210,210_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Img-brush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Img-brush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBrush4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBrush4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act sensitive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\act sensitive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducegum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducegum1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentaFloss1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentaFloss1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theraBreathToothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\therabreath fresh breath toothpaste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flosskids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flosskids.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closeup Menthol Fresh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closeup Menthol Fresh1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81rPjv8uA7L._AC_SL1500_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81rPjv8uA7L._AC_SL1500_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducegel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducegel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lucide--cigarette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lucide--cigarette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducetotpist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducetotpist.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToothBrush2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToothBrush2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logos--facebook2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logos--facebook2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_5474200-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_5474200-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colgate total advanced pro-shield mouthwash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colgate total advanced pro-shield mouthwash1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest advance white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest advance white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingfreegum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingfreegum.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgydium-premieres-dents-soothing-gingival-massage-gel-15ml2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hapee Cavity Fighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hapee Cavity Fighter.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logos--facebook3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logos--facebook3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Plax Mouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Plax Mouthwash.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OralBProSeries1234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OralBProSeries1234.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flourinsekids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flourinsekids;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Optic White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Optic White.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic--baseline-phone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic--baseline-phone2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crest white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crest white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tongue Scraper22121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tongue Scraper22121.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whiteningtreat-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whiteningtreat-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingtotpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingtotpis.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUM Dental Scaler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUM Dental Scaler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colgate Total Floss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colgate Total Floss.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgydium-premieres-dents-soothing-gingival-massage-gel-15ml1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OraCare Mouthrinse1231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OraCare Mouthrinse1231.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="munchkids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\munchkids.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mediumbrush1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mediumbrush1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gl722.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gl722.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yso7widRL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yso7widRL._AC_UL210_SR210,210_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oral-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oral-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skill-icons--instagram1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skill-icons--instagram1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouthwaskids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mouthwaskids;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theraBreathMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thera Breath.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oralb pro 1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oralb pro 1000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dental Floss1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dental Floss1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tongue Scraper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tongue Scraper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Non-Flouride" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Non-Flouride.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mediumbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mediumbrush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouthWash31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouthWash31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ACT Anticavity Fluoride Rinse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACT Anticavity Fluoride Rinse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgydium-premieres-dents-soothing-gingival-massage-gel-15ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elgydium-premieres-dents-soothing-gingival-massage-gel-15ml.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parodontax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parodontax.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TAW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TAW1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kidtotpist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kidtotpist.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interdental Brush2221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interdental Brush2221.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-mouthwash-vector-png-image_54742001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-mouthwash-vector-png-image_54742001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colgate total advanced pro-shield mouthwash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colgate total advanced pro-shield mouthwash.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothbrush-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toothbrush-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrushPrdctMtch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrushPrdctMtch1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reducegum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reducegum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Philips Sonic Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Philips Sonic Care.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toothpaste4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toothpaste4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheraBreath1234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheraBreath1234.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentalTools12345" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentalTools12345.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToothBrush3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToothBrush3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uil--globe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uil--globe2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentaFloss11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentaFloss11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fightingmouthwas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fightingmouthwas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sensodyne pronamel fresh breath toothpaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sensodyne pronamel fresh breath toothpaste.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1727992010-colgate-66ff10c159a43-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1727992010-colgate-66ff10c159a43-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gum soft picks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gum soft picks.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hardbrush1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hardbrush1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hardbrush2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hardbrush2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
